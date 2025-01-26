@@ -3,6 +3,7 @@ const messageElement = document.getElementById("message");
 const messageText = document.getElementById("message-text");
 let isXTurn = true;
 
+
 // Winning combinations
 const winningCombinations = [
     [0, 1, 2],
@@ -67,3 +68,4 @@ function endGame(message) {
 
 // Initialize the game
 startGame();
+
